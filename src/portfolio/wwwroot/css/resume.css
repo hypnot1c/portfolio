@@ -1,0 +1,18 @@
+﻿.ptf-resume {
+  padding: 25px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ptf-reume-avatar__image {
+  width: 128px;
+  height: 90px;
+}
+
+.ptf-resume-linesep {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}

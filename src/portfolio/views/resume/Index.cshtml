@@ -3,4 +3,26 @@
   this.ViewBag.page = "resume";
   this.Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<h1>Resume Page</h1>
+@section styles {
+  <link href="css/resume.css" rel="stylesheet" />
+}
+<content class="ptf-resume mdl-shadow--2dp">
+  <section>
+    <div class="ptf-resume-avatar">
+      <img class="ptf-reume-avatar__image" src="~/images/avatar.jpg" />
+    </div>
+    <h3>Апанасов Ахмед Анатольевич</h3>
+    <p>
+      27 лет (8 ноября 1987)Мужской пол​Москва, м. Речной вокзал, не готов к переезду​Готов к командировкам
+    </p>
+  </section>
+  <hr class="ptf-resume-linesep">
+  <section>
+    <div class="ptf-resume-avatar">
+      <img class="ptf-reume-avatar__image" src="~/images/mstuca.jpg" />
+    </div>
+    <h4>Московский государственный технический университет гражданской авиации, Москва</h4>
+    <h5>Факультет авиационных систем и комплексов</h5>
+    <h6>Навигация и управление воздушным движением</h6>
+  </section>
+</content>
